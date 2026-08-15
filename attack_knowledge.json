@@ -1,0 +1,6428 @@
+{
+  "T1548": {
+    "name": "Abuse Elevation Control Mechanism",
+    "resources": [
+      "eventvwr.exe",
+      "rundll32",
+      "attack.mitre.org",
+      "AppleDocs",
+      "AuthorizationExecuteWithPrivileges",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [
+        "eventvwr.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "rundll32"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AppleDocs",
+        "AuthorizationExecuteWithPrivileges",
+        "TechNet"
+      ]
+    },
+    "n_resources": 6,
+    "n_subtechniques": 4
+  },
+  "T1134": {
+    "name": "Access Token Manipulation",
+    "resources": [
+      "consent.exe",
+      "explorer.exe",
+      "lsass.exe",
+      "svchost.exe",
+      "powershell",
+      "rundll32",
+      "attack.mitre.org",
+      "CounterCept",
+      "CreateProcess",
+      "CreateProcessWithTokenW",
+      "DidierStevens",
+      "DuplicateToken",
+      "ImpersonateLoggedOnUser",
+      "LogonUser",
+      "SelectMyParent",
+      "SetThreadToken"
+    ],
+    "by_category": {
+      "files": [
+        "consent.exe",
+        "explorer.exe",
+        "lsass.exe",
+        "svchost.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "powershell",
+        "rundll32"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "CounterCept",
+        "CreateProcess",
+        "CreateProcessWithTokenW",
+        "DidierStevens",
+        "DuplicateToken",
+        "ImpersonateLoggedOnUser",
+        "LogonUser",
+        "SelectMyParent",
+        "SetThreadToken"
+      ]
+    },
+    "n_resources": 16,
+    "n_subtechniques": 5
+  },
+  "T1015": {
+    "name": "Accessibility Features",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1531": {
+    "name": "Account Access Removal",
+    "resources": [
+      "CarbonBlack",
+      "LockerGoga"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": [
+        "CarbonBlack",
+        "LockerGoga"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1087": {
+    "name": "Account Discovery",
+    "resources": [
+      "net",
+      "powershell",
+      "attack.mitre.org",
+      "GlobalAddressList",
+      "MailSniper",
+      "MsolRoleMember"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net",
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "GlobalAddressList",
+        "MailSniper",
+        "MsolRoleMember"
+      ]
+    },
+    "n_resources": 6,
+    "n_subtechniques": 4
+  },
+  "T1098": {
+    "name": "Account Manipulation",
+    "resources": [
+      "powershell",
+      "attack.mitre.org",
+      "CreateKeyPair",
+      "FireEye",
+      "FullAccess",
+      "ImportKeyPair",
+      "MailboxPermission",
+      "PubkeyAuthentication",
+      "ReadPermission",
+      "SolarWinds"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "CreateKeyPair",
+        "FireEye",
+        "FullAccess",
+        "ImportKeyPair",
+        "MailboxPermission",
+        "PubkeyAuthentication",
+        "ReadPermission",
+        "SolarWinds"
+      ]
+    },
+    "n_resources": 10,
+    "n_subtechniques": 4
+  },
+  "T1583": {
+    "name": "Acquire Infrastructure",
+    "resources": [
+      "attack.mitre.org",
+      "FireEye",
+      "PaypalScam",
+      "TrendmicroHideoutsLease"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye",
+        "PaypalScam",
+        "TrendmicroHideoutsLease"
+      ]
+    },
+    "n_resources": 4,
+    "n_subtechniques": 6
+  },
+  "T1595": {
+    "name": "Active Scanning",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 2
+  },
+  "T1182": {
+    "name": "AppCert DLLs",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1103": {
+    "name": "AppInit DLLs",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1155": {
+    "name": "AppleScript",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1527": {
+    "name": "Application Access Token",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1017": {
+    "name": "Application Deployment Software",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1071": {
+    "name": "Application Layer Protocol",
+    "resources": [
+      "DnsTunneling"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": [
+        "DnsTunneling"
+      ]
+    },
+    "n_resources": 1,
+    "n_subtechniques": 4
+  },
+  "T1138": {
+    "name": "Application Shimming",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1010": {
+    "name": "Application Window Discovery",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1560": {
+    "name": "Archive Collected Data",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 3
+  },
+  "T1123": {
+    "name": "Audio Capture",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1131": {
+    "name": "Authentication Package",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1119": {
+    "name": "Automated Collection",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1020": {
+    "name": "Automated Exfiltration",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 1
+  },
+  "T1197": {
+    "name": "BITS Jobs",
+    "resources": [
+      "bitsadmin",
+      "powershell",
+      "attack.mitre.org",
+      "PaloAlto",
+      "PiggyBack"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "bitsadmin",
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "PaloAlto",
+        "PiggyBack"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 0
+  },
+  "T1139": {
+    "name": "Bash History",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1009": {
+    "name": "Binary Padding",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1547": {
+    "name": "Boot or Logon Autostart Execution",
+    "resources": [
+      "Adversaries may abuse features of Winlogon to execute DLLs and/or executables when a user logs in. Winlogon.exe",
+      "Winlogon\\Shell - points to explorer.exe",
+      "Winlogon\\Userinit - points to userinit.exe",
+      "lsass.exe",
+      "on boot. The spoolsv.exe",
+      "spoolsv.exe",
+      "HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunServices",
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunServicesOnce",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Shell",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Userinit",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnceEx",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunServices",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunServicesOnce",
+      "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager",
+      "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\W32Time\\TimeProviders",
+      "HKLM\\SOFTWARE\\Microsoft\\Active Setup\\Installed Components",
+      "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnceEx\\0001\\Depend ",
+      "HKLM\\SYSTEM",
+      "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+      "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\OSConfig\\Security Packages",
+      "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Security Packages",
+      "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors",
+      "HKLM\\Software",
+      "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnceEx",
+      "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+      "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnceEx",
+      "Software\\Microsoft\\Windows\\CurrentVersion\\RunServices",
+      "Software\\Microsoft\\Windows\\CurrentVersion\\RunServicesOnce",
+      "\\Run",
+      "reg",
+      "attack.mitre.org",
+      "AddMonitor",
+      "AddPrintProcessor",
+      "AddSecurityPackage",
+      "AppData",
+      "AppleScript",
+      "BootExecute",
+      "CrowdStrike",
+      "CurrentControlSet",
+      "CurrentVersion",
+      "FireEye",
+      "GetPrintProcessorDirectory",
+      "PipeMon",
+      "ProgramData",
+      "RunOnce",
+      "RunOnceEx",
+      "RunServices",
+      "RunServicesOnce",
+      "SeLoadDriverPrivilege",
+      "StartUp",
+      "StubPath",
+      "TimeProvider",
+      "TimeProviders"
+    ],
+    "by_category": {
+      "files": [
+        "Adversaries may abuse features of Winlogon to execute DLLs and/or executables when a user logs in. Winlogon.exe",
+        "Winlogon\\Shell - points to explorer.exe",
+        "Winlogon\\Userinit - points to userinit.exe",
+        "lsass.exe",
+        "on boot. The spoolsv.exe",
+        "spoolsv.exe"
+      ],
+      "registry": [
+        "HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
+        "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows",
+        "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders",
+        "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders",
+        "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run",
+        "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+        "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunServices",
+        "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunServicesOnce",
+        "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders",
+        "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders",
+        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Shell",
+        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Userinit",
+        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\Run",
+        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnceEx",
+        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunServices",
+        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunServicesOnce",
+        "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager",
+        "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\W32Time\\TimeProviders",
+        "HKLM\\SOFTWARE\\Microsoft\\Active Setup\\Installed Components",
+        "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnceEx\\0001\\Depend ",
+        "HKLM\\SYSTEM",
+        "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa",
+        "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\OSConfig\\Security Packages",
+        "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Security Packages",
+        "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Print\\Monitors",
+        "HKLM\\Software",
+        "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnceEx",
+        "Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce",
+        "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnceEx",
+        "Software\\Microsoft\\Windows\\CurrentVersion\\RunServices",
+        "Software\\Microsoft\\Windows\\CurrentVersion\\RunServicesOnce",
+        "\\Run"
+      ],
+      "commands": [
+        "reg"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AddMonitor",
+        "AddPrintProcessor",
+        "AddSecurityPackage",
+        "AppData",
+        "AppleScript",
+        "BootExecute",
+        "CrowdStrike",
+        "CurrentControlSet",
+        "CurrentVersion",
+        "FireEye",
+        "GetPrintProcessorDirectory",
+        "PipeMon",
+        "ProgramData",
+        "RunOnce",
+        "RunOnceEx",
+        "RunServices",
+        "RunServicesOnce",
+        "SeLoadDriverPrivilege",
+        "StartUp",
+        "StubPath",
+        "TimeProvider",
+        "TimeProviders"
+      ]
+    },
+    "n_resources": 66,
+    "n_subtechniques": 14
+  },
+  "T1037": {
+    "name": "Boot or Logon Initialization Scripts",
+    "resources": [
+      "HKCU\\Environment\\UserInitMprLogonScript",
+      "attack.mitre.org",
+      "HiddenWasp",
+      "IranThreats",
+      "StartupItems",
+      "StartupParameters",
+      "TechNet",
+      "UserInitMprLogonScript"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [
+        "HKCU\\Environment\\UserInitMprLogonScript"
+      ],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "HiddenWasp",
+        "IranThreats",
+        "StartupItems",
+        "StartupParameters",
+        "TechNet",
+        "UserInitMprLogonScript"
+      ]
+    },
+    "n_resources": 8,
+    "n_subtechniques": 5
+  },
+  "T1067": {
+    "name": "Bootkit",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1217": {
+    "name": "Browser Bookmark Discovery",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1176": {
+    "name": "Browser Extensions",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1110": {
+    "name": "Brute Force",
+    "resources": [
+      "attack.mitre.org",
+      "BlackHillsInfosec"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "BlackHillsInfosec"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 4
+  },
+  "T1612": {
+    "name": "Build Image on Host",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1088": {
+    "name": "Bypass User Account Control",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1191": {
+    "name": "CMSTP",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1042": {
+    "name": "Change Default File Association",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1146": {
+    "name": "Clear Command History",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1115": {
+    "name": "Clipboard Data",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1580": {
+    "name": "Cloud Infrastructure Discovery",
+    "resources": [
+      "attack.mitre.org",
+      "DescribeInstances",
+      "ListBuckets"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "DescribeInstances",
+        "ListBuckets"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1522": {
+    "name": "Cloud Instance Metadata API",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1538": {
+    "name": "Cloud Service Dashboard",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1526": {
+    "name": "Cloud Service Discovery",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1116": {
+    "name": "Code Signing",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1059": {
+    "name": "Command and Scripting Interpreter",
+    "resources": [
+      "bat or .cmd",
+      "powershell.exe",
+      "python.exe",
+      "cmd",
+      "net",
+      "powershell",
+      "powershell.exe",
+      "attack.mitre.org",
+      "AppleEvent",
+      "AppleEvents",
+      "AppleScript",
+      "AppleScripts",
+      "JavaScript",
+      "PowerPick",
+      "PowerSploit",
+      "SentinelOne",
+      "SilentBreak",
+      "SpecterOps",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [
+        "bat or .cmd",
+        "powershell.exe",
+        "python.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "cmd",
+        "net",
+        "powershell",
+        "powershell.exe"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AppleEvent",
+        "AppleEvents",
+        "AppleScript",
+        "AppleScripts",
+        "JavaScript",
+        "PowerPick",
+        "PowerSploit",
+        "SentinelOne",
+        "SilentBreak",
+        "SpecterOps",
+        "TechNet"
+      ]
+    },
+    "n_resources": 19,
+    "n_subtechniques": 8
+  },
+  "T1043": {
+    "name": "Commonly Used Port",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1092": {
+    "name": "Communication Through Removable Media",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1500": {
+    "name": "Compile After Delivery",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1223": {
+    "name": "Compiled HTML File",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1109": {
+    "name": "Component Firmware",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1122": {
+    "name": "Component Object Model Hijacking",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1175": {
+    "name": "Component Object Model and Distributed COM",
+    "resources": [
+      "attack.mitre.org",
+      "ProjectZero"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "ProjectZero"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1586": {
+    "name": "Compromise Accounts",
+    "resources": [
+      "attack.mitre.org",
+      "BlackHatRobinSage",
+      "LinkedIn"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "BlackHatRobinSage",
+        "LinkedIn"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 2
+  },
+  "T1554": {
+    "name": "Compromise Client Software Binary",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1584": {
+    "name": "Compromise Infrastructure",
+    "resources": [
+      "attack.mitre.org",
+      "CiscoAngler",
+      "FireEye"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "CiscoAngler",
+        "FireEye"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 6
+  },
+  "T1609": {
+    "name": "Container Administration Command",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1613": {
+    "name": "Container and Resource Discovery",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1196": {
+    "name": "Control Panel Items",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1136": {
+    "name": "Create Account",
+    "resources": [
+      "net"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 3
+  },
+  "T1543": {
+    "name": "Create or Modify System Process",
+    "resources": [
+      "is stored in the Windows Registry. Service configurations can be modified using utilities such as sc.exe",
+      "reg",
+      "sc.exe",
+      "attack.mitre.org",
+      "freedesktop.org",
+      "AppleDocs",
+      "ExecReload",
+      "ExecStart",
+      "ExecStartPost",
+      "ExecStartPre",
+      "ExecStop",
+      "ExecStopPost",
+      "LaunchAgents",
+      "LaunchDaemons",
+      "OceanLotus",
+      "SysVinit",
+      "TechNet",
+      "WireLurker"
+    ],
+    "by_category": {
+      "files": [
+        "is stored in the Windows Registry. Service configurations can be modified using utilities such as sc.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "reg",
+        "sc.exe"
+      ],
+      "domains": [
+        "attack.mitre.org",
+        "freedesktop.org"
+      ],
+      "apis": [
+        "AppleDocs",
+        "ExecReload",
+        "ExecStart",
+        "ExecStartPost",
+        "ExecStartPre",
+        "ExecStop",
+        "ExecStopPost",
+        "LaunchAgents",
+        "LaunchDaemons",
+        "OceanLotus",
+        "SysVinit",
+        "TechNet",
+        "WireLurker"
+      ]
+    },
+    "n_resources": 18,
+    "n_subtechniques": 4
+  },
+  "T1555": {
+    "name": "Credentials from Password Stores",
+    "resources": [
+      "vaultcmd.exe",
+      "attack.mitre.org",
+      "AppData",
+      "CredEnumerate",
+      "CredEnumerateA",
+      "CryptUnprotectData",
+      "FireEye",
+      "FireFox",
+      "HawkEye",
+      "KeeThief"
+    ],
+    "by_category": {
+      "files": [
+        "vaultcmd.exe"
+      ],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AppData",
+        "CredEnumerate",
+        "CredEnumerateA",
+        "CryptUnprotectData",
+        "FireEye",
+        "FireFox",
+        "HawkEye",
+        "KeeThief"
+      ]
+    },
+    "n_resources": 10,
+    "n_subtechniques": 5
+  },
+  "T1503": {
+    "name": "Credentials from Web Browsers",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1081": {
+    "name": "Credentials in Files",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1214": {
+    "name": "Credentials in Registry",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1094": {
+    "name": "Custom Command and Control Protocol",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1024": {
+    "name": "Custom Cryptographic Protocol",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1038": {
+    "name": "DLL Search Order Hijacking",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1073": {
+    "name": "DLL Side-Loading",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1002": {
+    "name": "Data Compressed",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1485": {
+    "name": "Data Destruction",
+    "resources": [
+      "attack.mitre.org",
+      "FireEye",
+      "StoneDrill"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye",
+        "StoneDrill"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1132": {
+    "name": "Data Encoding",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 2
+  },
+  "T1022": {
+    "name": "Data Encrypted",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1486": {
+    "name": "Data Encrypted for Impact",
+    "resources": [
+      "attack.mitre.org",
+      "FireEye",
+      "NotPetya",
+      "WannaCry"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye",
+        "NotPetya",
+        "WannaCry"
+      ]
+    },
+    "n_resources": 4,
+    "n_subtechniques": 0
+  },
+  "T1565": {
+    "name": "Data Manipulation",
+    "resources": [
+      "route",
+      "attack.mitre.org",
+      "FireEye"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "route"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 3
+  },
+  "T1001": {
+    "name": "Data Obfuscation",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 3
+  },
+  "T1074": {
+    "name": "Data Staged",
+    "resources": [
+      "cmd",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "cmd"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 2
+  },
+  "T1030": {
+    "name": "Data Transfer Size Limits",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1530": {
+    "name": "Data from Cloud Storage Object",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1602": {
+    "name": "Data from Configuration Repository",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 2
+  },
+  "T1213": {
+    "name": "Data from Information Repositories",
+    "resources": [
+      "attack.mitre.org",
+      "SharePoint"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "SharePoint"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 2
+  },
+  "T1005": {
+    "name": "Data from Local System",
+    "resources": [
+      "cmd",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "cmd"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1039": {
+    "name": "Data from Network Shared Drive",
+    "resources": [
+      "cmd",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "cmd"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1025": {
+    "name": "Data from Removable Media",
+    "resources": [
+      "cmd",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "cmd"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1491": {
+    "name": "Defacement",
+    "resources": [
+      "attack.mitre.org",
+      "FireEye"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 2
+  },
+  "T1140": {
+    "name": "Deobfuscate/Decode Files or Information",
+    "resources": [
+      "certutil",
+      "attack.mitre.org",
+      "PowerDuke"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "certutil"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "PowerDuke"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1610": {
+    "name": "Deploy Container",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1587": {
+    "name": "Develop Capabilities",
+    "resources": [
+      "attack.mitre.org",
+      "ActiveMalwareEnergy",
+      "FireEye",
+      "StrongPity"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "ActiveMalwareEnergy",
+        "FireEye",
+        "StrongPity"
+      ]
+    },
+    "n_resources": 4,
+    "n_subtechniques": 4
+  },
+  "T1006": {
+    "name": "Direct Volume Access",
+    "resources": [
+      "powershell",
+      "NinjaCopy",
+      "PowerSploit"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [],
+      "apis": [
+        "NinjaCopy",
+        "PowerSploit"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1089": {
+    "name": "Disabling Security Tools",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1488": {
+    "name": "Disk Content Wipe",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1487": {
+    "name": "Disk Structure Wipe",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1561": {
+    "name": "Disk Wipe",
+    "resources": [
+      "attack.mitre.org",
+      "FireEye",
+      "RawDisk",
+      "StoneDrill"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye",
+        "RawDisk",
+        "StoneDrill"
+      ]
+    },
+    "n_resources": 4,
+    "n_subtechniques": 2
+  },
+  "T1172": {
+    "name": "Domain Fronting",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1483": {
+    "name": "Domain Generation Algorithms",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1484": {
+    "name": "Domain Policy Modification",
+    "resources": [
+      "MACHINE\\Microsoft\\Windows NT\\SecEdit\\GptTmpl.inf",
+      "attack.mitre.org",
+      "GptTmpl",
+      "ScheduledTasks",
+      "SeEnableDelegationPrivilege",
+      "SecEdit",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [
+        "MACHINE\\Microsoft\\Windows NT\\SecEdit\\GptTmpl.inf"
+      ],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "GptTmpl",
+        "ScheduledTasks",
+        "SeEnableDelegationPrivilege",
+        "SecEdit",
+        "TechNet"
+      ]
+    },
+    "n_resources": 7,
+    "n_subtechniques": 2
+  },
+  "T1482": {
+    "name": "Domain Trust Discovery",
+    "resources": [
+      "net",
+      "nltest",
+      "attack.mitre.org",
+      "AdSecurity"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net",
+        "nltest"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AdSecurity"
+      ]
+    },
+    "n_resources": 4,
+    "n_subtechniques": 0
+  },
+  "T1189": {
+    "name": "Drive-by Compromise",
+    "resources": [
+      "attack.mitre.org",
+      "JavaScript",
+      "OceanLotus"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "JavaScript",
+        "OceanLotus"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1157": {
+    "name": "Dylib Hijacking",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1173": {
+    "name": "Dynamic Data Exchange",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1568": {
+    "name": "Dynamic Resolution",
+    "resources": [
+      "net",
+      "attack.mitre.org",
+      "cityjulydish.net",
+      "istgmxdejdnxuyla.ru",
+      "FireEye"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [
+        "attack.mitre.org",
+        "cityjulydish.net",
+        "istgmxdejdnxuyla.ru"
+      ],
+      "apis": [
+        "FireEye"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 3
+  },
+  "T1514": {
+    "name": "Elevated Execution with Prompt",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1114": {
+    "name": "Email Collection",
+    "resources": [
+      "attack.mitre.org",
+      "AppData",
+      "MailSniper",
+      "McMichael"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AppData",
+        "MailSniper",
+        "McMichael"
+      ]
+    },
+    "n_resources": 4,
+    "n_subtechniques": 3
+  },
+  "T1519": {
+    "name": "Emond",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1573": {
+    "name": "Encrypted Channel",
+    "resources": [
+      "attack.mitre.org",
+      "ElGamal"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "ElGamal"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 2
+  },
+  "T1499": {
+    "name": "Endpoint Denial of Service",
+    "resources": [
+      "attack.mitre.org",
+      "AnnualDoSreport",
+      "ArsTechnica",
+      "FireEye",
+      "IranianBotnet",
+      "JavaScript",
+      "OpPoisonedHandover",
+      "SynFlood"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AnnualDoSreport",
+        "ArsTechnica",
+        "FireEye",
+        "IranianBotnet",
+        "JavaScript",
+        "OpPoisonedHandover",
+        "SynFlood"
+      ]
+    },
+    "n_resources": 8,
+    "n_subtechniques": 4
+  },
+  "T1611": {
+    "name": "Escape to Host",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1585": {
+    "name": "Establish Accounts",
+    "resources": [
+      "attack.mitre.org",
+      "BlackHatRobinSage",
+      "LinkedIn"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "BlackHatRobinSage",
+        "LinkedIn"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 2
+  },
+  "T1546": {
+    "name": "Event Triggered Execution",
+    "resources": [
+      "Adversaries can use netsh.exe helper DLLs to trigger execution of arbitrary code in a persistent manner. This execution would take place anytime netsh.exe",
+      "Adversaries may establish persistence by executing malicious content triggered by Netsh Helper DLLs. Netsh.exe",
+      "C:\\Windows\\System32\\AtBroker.exe",
+      "C:\\Windows\\System32\\DisplaySwitch.exe",
+      "C:\\Windows\\System32\\Magnify.exe",
+      "C:\\Windows\\System32\\Narrator.exe",
+      "C:\\Windows\\System32\\osk.exe",
+      "C:\\Windows\\System32\\sethc.exe",
+      "C:\\Windows\\System32\\utilman.exe",
+      "C:\\dbg\\ntsd.exe -g  notepad.exe",
+      "SCRNSAVE.exe",
+      "The Windows screensaver application scrnsave.scr",
+      "The paths to registered netsh.exe",
+      "U key combination is pressed. The sethc.exe",
+      "WmiPrvSe.exe",
+      "are loaded by user32.dll into every process that loads user32.dll",
+      "cmd.exe",
+      "files with a .scr",
+      "is present on the system that executes netsh.exe",
+      "profile.ps1",
+      "sdbinst.exe",
+      "since user32.dll",
+      "utilman.exe",
+      "HKCU\\Control Panel\\Desktop",
+      "HKEY_CLASSES_ROOT\\.",
+      "HKEY_CLASSES_ROOT\\.txt",
+      "HKEY_CLASSES_ROOT\\txtfile\\shell\\open\\command",
+      "HKEY_CLASSES_ROOT\\txtfile\\shell\\print\\command",
+      "HKEY_CLASSES_ROOT\\txtfile\\shell\\printto\\command",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\SilentProcessExit",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows",
+      "HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows",
+      "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager",
+      "HKLM\\SOFTWARE\\Microsoft\\Netsh",
+      "HKLM\\SOFTWARE{\\Wow6432Node}\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options",
+      "hklm\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\custom",
+      "hklm\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\installedsdb",
+      "cmd.exe",
+      "netsh",
+      "powershell",
+      "attack.mitre.org",
+      "AppCert",
+      "AppInit",
+      "AppPatch",
+      "AtBroker",
+      "CreateProcess",
+      "CreateProcessAsUser",
+      "CreateProcessWithLoginW",
+      "CreateProcessWithTokenW",
+      "CurrentControlSet",
+      "CurrentVersion",
+      "DisplaySwitch",
+      "FireEye",
+      "GetProcAddress",
+      "LaunchDaemons",
+      "NoProfile",
+      "QueueDirectories",
+      "ScreenSaveActive",
+      "ScreenSaveTimeout",
+      "ScreenSaverIsSecure",
+      "SilentProcessExit",
+      "TechNet",
+      "TrendMicro",
+      "WinExec",
+      "WmiPrvSe"
+    ],
+    "by_category": {
+      "files": [
+        "Adversaries can use netsh.exe helper DLLs to trigger execution of arbitrary code in a persistent manner. This execution would take place anytime netsh.exe",
+        "Adversaries may establish persistence by executing malicious content triggered by Netsh Helper DLLs. Netsh.exe",
+        "C:\\Windows\\System32\\AtBroker.exe",
+        "C:\\Windows\\System32\\DisplaySwitch.exe",
+        "C:\\Windows\\System32\\Magnify.exe",
+        "C:\\Windows\\System32\\Narrator.exe",
+        "C:\\Windows\\System32\\osk.exe",
+        "C:\\Windows\\System32\\sethc.exe",
+        "C:\\Windows\\System32\\utilman.exe",
+        "C:\\dbg\\ntsd.exe -g  notepad.exe",
+        "SCRNSAVE.exe",
+        "The Windows screensaver application scrnsave.scr",
+        "The paths to registered netsh.exe",
+        "U key combination is pressed. The sethc.exe",
+        "WmiPrvSe.exe",
+        "are loaded by user32.dll into every process that loads user32.dll",
+        "cmd.exe",
+        "files with a .scr",
+        "is present on the system that executes netsh.exe",
+        "profile.ps1",
+        "sdbinst.exe",
+        "since user32.dll",
+        "utilman.exe"
+      ],
+      "registry": [
+        "HKCU\\Control Panel\\Desktop",
+        "HKEY_CLASSES_ROOT\\.",
+        "HKEY_CLASSES_ROOT\\.txt",
+        "HKEY_CLASSES_ROOT\\txtfile\\shell\\open\\command",
+        "HKEY_CLASSES_ROOT\\txtfile\\shell\\print\\command",
+        "HKEY_CLASSES_ROOT\\txtfile\\shell\\printto\\command",
+        "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\SilentProcessExit",
+        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows",
+        "HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Microsoft\\Windows NT\\CurrentVersion\\Windows",
+        "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager",
+        "HKLM\\SOFTWARE\\Microsoft\\Netsh",
+        "HKLM\\SOFTWARE{\\Wow6432Node}\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options",
+        "hklm\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\custom",
+        "hklm\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\installedsdb"
+      ],
+      "commands": [
+        "cmd.exe",
+        "netsh",
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AppCert",
+        "AppInit",
+        "AppPatch",
+        "AtBroker",
+        "CreateProcess",
+        "CreateProcessAsUser",
+        "CreateProcessWithLoginW",
+        "CreateProcessWithTokenW",
+        "CurrentControlSet",
+        "CurrentVersion",
+        "DisplaySwitch",
+        "FireEye",
+        "GetProcAddress",
+        "LaunchDaemons",
+        "NoProfile",
+        "QueueDirectories",
+        "ScreenSaveActive",
+        "ScreenSaveTimeout",
+        "ScreenSaverIsSecure",
+        "SilentProcessExit",
+        "TechNet",
+        "TrendMicro",
+        "WinExec",
+        "WmiPrvSe"
+      ]
+    },
+    "n_resources": 65,
+    "n_subtechniques": 15
+  },
+  "T1480": {
+    "name": "Execution Guardrails",
+    "resources": [
+      "attack.mitre.org",
+      "FireEye"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 1
+  },
+  "T1048": {
+    "name": "Exfiltration Over Alternative Protocol",
+    "resources": [
+      "net",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 3
+  },
+  "T1041": {
+    "name": "Exfiltration Over C2 Channel",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1011": {
+    "name": "Exfiltration Over Other Network Medium",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 1
+  },
+  "T1052": {
+    "name": "Exfiltration Over Physical Medium",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 1
+  },
+  "T1567": {
+    "name": "Exfiltration Over Web Service",
+    "resources": [
+      "api.github.com",
+      "api.github.com"
+    ],
+    "by_category": {
+      "files": [
+        "api.github.com"
+      ],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "api.github.com"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 2
+  },
+  "T1190": {
+    "name": "Exploit Public-Facing Application",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1203": {
+    "name": "Exploitation for Client Execution",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1212": {
+    "name": "Exploitation for Credential Access",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1211": {
+    "name": "Exploitation for Defense Evasion",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1068": {
+    "name": "Exploitation for Privilege Escalation",
+    "resources": [
+      "attack.mitre.org",
+      "AcidBox",
+      "InvisiMole"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AcidBox",
+        "InvisiMole"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1210": {
+    "name": "Exploitation of Remote Services",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1133": {
+    "name": "External Remote Services",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1181": {
+    "name": "Extra Window Memory Injection",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1008": {
+    "name": "Fallback Channels",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1107": {
+    "name": "File Deletion",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1044": {
+    "name": "File System Permissions Weakness",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1083": {
+    "name": "File and Directory Discovery",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1222": {
+    "name": "File and Directory Permissions Modification",
+    "resources": [
+      "powershell",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 2
+  },
+  "T1495": {
+    "name": "Firmware Corruption",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1187": {
+    "name": "Forced Authentication",
+    "resources": [
+      "A modified .LNK",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [
+        "A modified .LNK"
+      ],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1606": {
+    "name": "Forge Web Credentials",
+    "resources": [
+      "attack.mitre.org",
+      "AccessTokenLifetime",
+      "LifetimeTokenPolicy",
+      "NotOnOrAfter",
+      "SolarWinds"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AccessTokenLifetime",
+        "LifetimeTokenPolicy",
+        "NotOnOrAfter",
+        "SolarWinds"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 2
+  },
+  "T1144": {
+    "name": "Gatekeeper Bypass",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1592": {
+    "name": "Gather Victim Host Information",
+    "resources": [
+      "attack.mitre.org",
+      "ArsTechnica",
+      "ScanBox"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "ArsTechnica",
+        "ScanBox"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 4
+  },
+  "T1589": {
+    "name": "Gather Victim Identity Information",
+    "resources": [
+      "attack.mitre.org",
+      "HackersArise",
+      "ScanBox"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "HackersArise",
+        "ScanBox"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 3
+  },
+  "T1590": {
+    "name": "Gather Victim Network Information",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 6
+  },
+  "T1591": {
+    "name": "Gather Victim Org Information",
+    "resources": [
+      "attack.mitre.org",
+      "ThreatPost"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "ThreatPost"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 4
+  },
+  "T1061": {
+    "name": "Graphical User Interface",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1148": {
+    "name": "HISTCONTROL",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1200": {
+    "name": "Hardware Additions",
+    "resources": [
+      "McMillan",
+      "RubberDuck"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": [
+        "McMillan",
+        "RubberDuck"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1158": {
+    "name": "Hidden Files and Directories",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1147": {
+    "name": "Hidden Users",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1143": {
+    "name": "Hidden Window",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1564": {
+    "name": "Hide Artifacts",
+    "resources": [
+      "powershell.exe",
+      "users can mark specific files as hidden by using the attrib.exe",
+      "powershell",
+      "powershell.exe",
+      "attack.mitre.org",
+      "FireEye",
+      "MalwareBytes",
+      "MalwareTech",
+      "PerformanceCache",
+      "SingHealth",
+      "SpectorOps",
+      "VirtualBox",
+      "WindowStyle",
+      "WireLurker",
+      "ZeroAccess"
+    ],
+    "by_category": {
+      "files": [
+        "powershell.exe",
+        "users can mark specific files as hidden by using the attrib.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "powershell",
+        "powershell.exe"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye",
+        "MalwareBytes",
+        "MalwareTech",
+        "PerformanceCache",
+        "SingHealth",
+        "SpectorOps",
+        "VirtualBox",
+        "WindowStyle",
+        "WireLurker",
+        "ZeroAccess"
+      ]
+    },
+    "n_resources": 15,
+    "n_subtechniques": 7
+  },
+  "T1574": {
+    "name": "Hijack Execution Flow",
+    "resources": [
+      "C:\\program files\\myapp.exe",
+      "C:\\program.exe",
+      "C:\\safe path with space\\program.exe",
+      "C:\\unsafe path with space\\program.exe",
+      "a program that is named net.exe",
+      "cmd.exe",
+      "example.exe",
+      "namely using cmd.exe",
+      "net.com",
+      "net.exe",
+      "sc.exe",
+      "within the same directory as example.exe",
+      "HKLM\\SYSTEM\\CurrentControlSet\\Services",
+      "cmd",
+      "cmd.exe",
+      "net",
+      "net.exe",
+      "powershell",
+      "reg",
+      "sc.exe",
+      "attack.mitre.org",
+      "net.com",
+      "CreateHijacker",
+      "CreateProcess",
+      "CurrentControlSet",
+      "EmpireProject",
+      "FailureCommand",
+      "FireEye",
+      "HijackScanner",
+      "ImagePath",
+      "LocalService",
+      "MalwareUnicorn",
+      "NetworkService",
+      "RedCanary",
+      "SystemRoot",
+      "TheEvilBit",
+      "WinExec"
+    ],
+    "by_category": {
+      "files": [
+        "C:\\program files\\myapp.exe",
+        "C:\\program.exe",
+        "C:\\safe path with space\\program.exe",
+        "C:\\unsafe path with space\\program.exe",
+        "a program that is named net.exe",
+        "cmd.exe",
+        "example.exe",
+        "namely using cmd.exe",
+        "net.com",
+        "net.exe",
+        "sc.exe",
+        "within the same directory as example.exe"
+      ],
+      "registry": [
+        "HKLM\\SYSTEM\\CurrentControlSet\\Services"
+      ],
+      "commands": [
+        "cmd",
+        "cmd.exe",
+        "net",
+        "net.exe",
+        "powershell",
+        "reg",
+        "sc.exe"
+      ],
+      "domains": [
+        "attack.mitre.org",
+        "net.com"
+      ],
+      "apis": [
+        "CreateHijacker",
+        "CreateProcess",
+        "CurrentControlSet",
+        "EmpireProject",
+        "FailureCommand",
+        "FireEye",
+        "HijackScanner",
+        "ImagePath",
+        "LocalService",
+        "MalwareUnicorn",
+        "NetworkService",
+        "RedCanary",
+        "SystemRoot",
+        "TheEvilBit",
+        "WinExec"
+      ]
+    },
+    "n_resources": 37,
+    "n_subtechniques": 11
+  },
+  "T1179": {
+    "name": "Hooking",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1062": {
+    "name": "Hypervisor",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1183": {
+    "name": "Image File Execution Options Injection",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1562": {
+    "name": "Impair Defenses",
+    "resources": [
+      "powershell",
+      "attack.mitre.org",
+      "CloudTrail",
+      "CloudWatch",
+      "EtwTraceProvider",
+      "HistorySavePath",
+      "HistorySaveStyle",
+      "SaveNothing"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "CloudTrail",
+        "CloudWatch",
+        "EtwTraceProvider",
+        "HistorySavePath",
+        "HistorySaveStyle",
+        "SaveNothing"
+      ]
+    },
+    "n_resources": 8,
+    "n_subtechniques": 7
+  },
+  "T1525": {
+    "name": "Implant Internal Image",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1054": {
+    "name": "Indicator Blocking",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1066": {
+    "name": "Indicator Removal from Tools",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1070": {
+    "name": "Indicator Removal on Host",
+    "resources": [
+      "cmd",
+      "net",
+      "powershell",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "cmd",
+        "net",
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 4,
+    "n_subtechniques": 6
+  },
+  "T1202": {
+    "name": "Indirect Command Execution",
+    "resources": [
+      "pcalua.exe",
+      "cmd",
+      "attack.mitre.org",
+      "ForFiles",
+      "VectorSec"
+    ],
+    "by_category": {
+      "files": [
+        "pcalua.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "cmd"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "ForFiles",
+        "VectorSec"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 0
+  },
+  "T1105": {
+    "name": "Ingress Tool Transfer",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1490": {
+    "name": "Inhibit System Recovery",
+    "resources": [
+      "bcdedit.exe",
+      "vssadmin.exe",
+      "wbadmin.exe",
+      "bcdedit",
+      "vssadmin",
+      "wmic",
+      "attack.mitre.org",
+      "FireEye",
+      "WannaCry"
+    ],
+    "by_category": {
+      "files": [
+        "bcdedit.exe",
+        "vssadmin.exe",
+        "wbadmin.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "bcdedit",
+        "vssadmin",
+        "wmic"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye",
+        "WannaCry"
+      ]
+    },
+    "n_resources": 9,
+    "n_subtechniques": 0
+  },
+  "T1056": {
+    "name": "Input Capture",
+    "resources": [
+      "powershell",
+      "attack.mitre.org",
+      "AppleScript",
+      "HighTech",
+      "LogRhythm",
+      "MacKeeper",
+      "TrojanSpy"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AppleScript",
+        "HighTech",
+        "LogRhythm",
+        "MacKeeper",
+        "TrojanSpy"
+      ]
+    },
+    "n_resources": 7,
+    "n_subtechniques": 4
+  },
+  "T1141": {
+    "name": "Input Prompt",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1130": {
+    "name": "Install Root Certificate",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1118": {
+    "name": "InstallUtil",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1559": {
+    "name": "Inter-Process Communication",
+    "resources": [
+      "attack.mitre.org",
+      "BleepingComputer",
+      "MacroLess",
+      "ProjectZero",
+      "SensePost"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "BleepingComputer",
+        "MacroLess",
+        "ProjectZero",
+        "SensePost"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 2
+  },
+  "T1534": {
+    "name": "Internal Spearphishing",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1208": {
+    "name": "Kerberoasting",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1215": {
+    "name": "Kernel Modules and Extensions",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1142": {
+    "name": "Keychain",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1161": {
+    "name": "LC_LOAD_DYLIB Addition",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1149": {
+    "name": "LC_MAIN Hijacking",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1171": {
+    "name": "LLMNR/NBT-NS Poisoning and Relay",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1177": {
+    "name": "LSASS Driver",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1570": {
+    "name": "Lateral Tool Transfer",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1159": {
+    "name": "Launch Agent",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1160": {
+    "name": "Launch Daemon",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1152": {
+    "name": "Launchctl",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1168": {
+    "name": "Local Job Scheduling",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1162": {
+    "name": "Login Item",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1156": {
+    "name": "Malicious Shell Modification",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1185": {
+    "name": "Man in the Browser",
+    "resources": [
+      "SeDebugPrivilege"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": [
+        "SeDebugPrivilege"
+      ]
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1557": {
+    "name": "Man-in-the-Middle",
+    "resources": [
+      "arp",
+      "attack.mitre.org",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "arp"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "TechNet"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 2
+  },
+  "T1036": {
+    "name": "Masquerading",
+    "resources": [
+      "March 25 \\u202Excod.scr",
+      "evil.bin",
+      "photo_high_re\\u202Egnp.js",
+      "rundll32.exe",
+      "svchost.exe",
+      "where regedit.exe displays the reversed characters but the command line tool reg.exe",
+      "reg.exe",
+      "rundll32",
+      "schtasks",
+      "attack.mitre.org",
+      "CozyDuke",
+      "JavaScript",
+      "MetaTwin",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [
+        "March 25 \\u202Excod.scr",
+        "evil.bin",
+        "photo_high_re\\u202Egnp.js",
+        "rundll32.exe",
+        "svchost.exe",
+        "where regedit.exe displays the reversed characters but the command line tool reg.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "reg.exe",
+        "rundll32",
+        "schtasks"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "CozyDuke",
+        "JavaScript",
+        "MetaTwin",
+        "TechNet"
+      ]
+    },
+    "n_resources": 14,
+    "n_subtechniques": 6
+  },
+  "T1556": {
+    "name": "Modify Authentication Process",
+    "resources": [
+      "attack.mitre.org",
+      "FireEye"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 4
+  },
+  "T1578": {
+    "name": "Modify Cloud Compute Infrastructure",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 4
+  },
+  "T1031": {
+    "name": "Modify Existing Service",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1112": {
+    "name": "Modify Registry",
+    "resources": [
+      "reg",
+      "attack.mitre.org",
+      "SpectorOps",
+      "TrendMicro"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "reg"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "SpectorOps",
+        "TrendMicro"
+      ]
+    },
+    "n_resources": 4,
+    "n_subtechniques": 0
+  },
+  "T1601": {
+    "name": "Modify System Image",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 2
+  },
+  "T1170": {
+    "name": "Mshta",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1104": {
+    "name": "Multi-Stage Channels",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1188": {
+    "name": "Multi-hop Proxy",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1026": {
+    "name": "Multiband Communication",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1079": {
+    "name": "Multilayer Encryption",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1096": {
+    "name": "NTFS File Attributes",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1106": {
+    "name": "Native API",
+    "resources": [
+      "net",
+      "attack.mitre.org",
+      "CreateProcess"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "CreateProcess"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1128": {
+    "name": "Netsh Helper DLL",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1599": {
+    "name": "Network Boundary Bridging",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 1
+  },
+  "T1498": {
+    "name": "Network Denial of Service",
+    "resources": [
+      "attack.mitre.org",
+      "AnnualDoSreport",
+      "FireEye",
+      "IranianBotnet",
+      "OpPoisonedHandover"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AnnualDoSreport",
+        "FireEye",
+        "IranianBotnet",
+        "OpPoisonedHandover"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 2
+  },
+  "T1046": {
+    "name": "Network Service Scanning",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1126": {
+    "name": "Network Share Connection Removal",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1135": {
+    "name": "Network Share Discovery",
+    "resources": [
+      "net",
+      "attack.mitre.org",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "TechNet"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1040": {
+    "name": "Network Sniffing",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1050": {
+    "name": "New Service",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1095": {
+    "name": "Non-Application Layer Protocol",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1571": {
+    "name": "Non-Standard Port",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1003": {
+    "name": "OS Credential Dumping",
+    "resources": [
+      "Wine API samlib.dll",
+      "ntdsutil.exe",
+      "procdump -ma lsass.exe",
+      "pwdumpx.exe",
+      "HKEY_LOCAL_MACHINE\\SECURITY\\Policy\\Secrets",
+      "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\OSConfig\\Security Packages",
+      "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Security Packages",
+      "HKLM\\sam sam",
+      "HKLM\\system system",
+      "net",
+      "reg",
+      "attack.mitre.org",
+      "AddSecurityPackage",
+      "CurrentControlSet",
+      "InsiderThreat",
+      "MimiPenguin",
+      "NetSync",
+      "NinjaCopy",
+      "PassLib",
+      "SystemRoot",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [
+        "Wine API samlib.dll",
+        "ntdsutil.exe",
+        "procdump -ma lsass.exe",
+        "pwdumpx.exe"
+      ],
+      "registry": [
+        "HKEY_LOCAL_MACHINE\\SECURITY\\Policy\\Secrets",
+        "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\OSConfig\\Security Packages",
+        "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Security Packages",
+        "HKLM\\sam sam",
+        "HKLM\\system system"
+      ],
+      "commands": [
+        "net",
+        "reg"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AddSecurityPackage",
+        "CurrentControlSet",
+        "InsiderThreat",
+        "MimiPenguin",
+        "NetSync",
+        "NinjaCopy",
+        "PassLib",
+        "SystemRoot",
+        "TechNet"
+      ]
+    },
+    "n_resources": 21,
+    "n_subtechniques": 8
+  },
+  "T1027": {
+    "name": "Obfuscated Files or Information",
+    "resources": [
+      "typically via native utilities such as csc.exe",
+      "powershell",
+      "attack.mitre.org",
+      "ClearSky",
+      "EncodedCommand",
+      "FinFisher",
+      "FireEye",
+      "JavaScript",
+      "MuddyWater",
+      "OceanLotus",
+      "PaloAlto",
+      "PowerDuke",
+      "TrendMicro",
+      "VirusTotal",
+      "WindowsAppMac"
+    ],
+    "by_category": {
+      "files": [
+        "typically via native utilities such as csc.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "ClearSky",
+        "EncodedCommand",
+        "FinFisher",
+        "FireEye",
+        "JavaScript",
+        "MuddyWater",
+        "OceanLotus",
+        "PaloAlto",
+        "PowerDuke",
+        "TrendMicro",
+        "VirusTotal",
+        "WindowsAppMac"
+      ]
+    },
+    "n_resources": 15,
+    "n_subtechniques": 5
+  },
+  "T1588": {
+    "name": "Obtain Capabilities",
+    "resources": [
+      "attack.mitre.org",
+      "DiginotarCompromise",
+      "NationsBuying",
+      "PegasusCitizenLab",
+      "SandCat",
+      "TempertonDarkHotel"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "DiginotarCompromise",
+        "NationsBuying",
+        "PegasusCitizenLab",
+        "SandCat",
+        "TempertonDarkHotel"
+      ]
+    },
+    "n_resources": 6,
+    "n_subtechniques": 6
+  },
+  "T1137": {
+    "name": "Office Application Startup",
+    "resources": [
+      "HKEY_CURRENT_USER\\Software\\Microsoft\\Office test\\Special\\Perf",
+      "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Office test\\Special\\Perf",
+      "AppData",
+      "FireEye",
+      "GlobalDotName",
+      "SensePost",
+      "SilentBreak",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [
+        "HKEY_CURRENT_USER\\Software\\Microsoft\\Office test\\Special\\Perf",
+        "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Office test\\Special\\Perf"
+      ],
+      "commands": [],
+      "domains": [],
+      "apis": [
+        "AppData",
+        "FireEye",
+        "GlobalDotName",
+        "SensePost",
+        "SilentBreak",
+        "TechNet"
+      ]
+    },
+    "n_resources": 8,
+    "n_subtechniques": 6
+  },
+  "T1502": {
+    "name": "Parent PID Spoofing",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1075": {
+    "name": "Pass the Hash",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1097": {
+    "name": "Pass the Ticket",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1174": {
+    "name": "Password Filter DLL",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1201": {
+    "name": "Password Policy Discovery",
+    "resources": [
+      "net",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1034": {
+    "name": "Path Interception",
+    "resources": [
+      "C:\\program files\\myapp.exe",
+      "C:\\program.exe",
+      "C:\\safe path with space\\program.exe",
+      "C:\\unsafe path with space\\program.exe",
+      "a program that is named net.exe",
+      "cmd.exe",
+      "example.exe",
+      "namely using cmd.exe",
+      "net.com",
+      "net.exe",
+      "within the same directory as example.exe",
+      "cmd",
+      "cmd.exe",
+      "net",
+      "net.exe",
+      "powershell",
+      "attack.mitre.org",
+      "net.com",
+      "CreateProcess",
+      "SecurityBoulevard",
+      "SploitSpren",
+      "SystemRoot",
+      "TechNet",
+      "WinExec"
+    ],
+    "by_category": {
+      "files": [
+        "C:\\program files\\myapp.exe",
+        "C:\\program.exe",
+        "C:\\safe path with space\\program.exe",
+        "C:\\unsafe path with space\\program.exe",
+        "a program that is named net.exe",
+        "cmd.exe",
+        "example.exe",
+        "namely using cmd.exe",
+        "net.com",
+        "net.exe",
+        "within the same directory as example.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "cmd",
+        "cmd.exe",
+        "net",
+        "net.exe",
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org",
+        "net.com"
+      ],
+      "apis": [
+        "CreateProcess",
+        "SecurityBoulevard",
+        "SploitSpren",
+        "SystemRoot",
+        "TechNet",
+        "WinExec"
+      ]
+    },
+    "n_resources": 24,
+    "n_subtechniques": 0
+  },
+  "T1120": {
+    "name": "Peripheral Device Discovery",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1069": {
+    "name": "Permission Groups Discovery",
+    "resources": [
+      "cloudidentity.googleapis.com",
+      "net",
+      "powershell",
+      "attack.mitre.org",
+      "cloudidentity.googleapis.com",
+      "MsolRole"
+    ],
+    "by_category": {
+      "files": [
+        "cloudidentity.googleapis.com"
+      ],
+      "registry": [],
+      "commands": [
+        "net",
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org",
+        "cloudidentity.googleapis.com"
+      ],
+      "apis": [
+        "MsolRole"
+      ]
+    },
+    "n_resources": 6,
+    "n_subtechniques": 3
+  },
+  "T1566": {
+    "name": "Phishing",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 3
+  },
+  "T1598": {
+    "name": "Phishing for Information",
+    "resources": [
+      "attack.mitre.org",
+      "FakeLogin",
+      "ThreatPost",
+      "TrendMictro"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FakeLogin",
+        "ThreatPost",
+        "TrendMictro"
+      ]
+    },
+    "n_resources": 4,
+    "n_subtechniques": 3
+  },
+  "T1150": {
+    "name": "Plist Modification",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1013": {
+    "name": "Port Monitors",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1086": {
+    "name": "PowerShell",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1504": {
+    "name": "PowerShell Profile",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1542": {
+    "name": "Pre-OS Boot",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 5
+  },
+  "T1145": {
+    "name": "Private Keys",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1057": {
+    "name": "Process Discovery",
+    "resources": [
+      "cmd",
+      "powershell",
+      "tasklist",
+      "attack.mitre.org",
+      "CreateToolhelp32Snapshot"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "cmd",
+        "powershell",
+        "tasklist"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "CreateToolhelp32Snapshot"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 0
+  },
+  "T1186": {
+    "name": "Process Doppelgänging",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1093": {
+    "name": "Process Hollowing",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1055": {
+    "name": "Process Injection",
+    "resources": [
+      "attack.mitre.org",
+      "AtomBombing",
+      "BlackHat",
+      "CreateProcess",
+      "CreateRemoteThread",
+      "CyberBit",
+      "FireEye",
+      "GetWindowLong",
+      "LoadLibrary",
+      "LoadLibrayA",
+      "MalwareTech",
+      "NtUnmapViewOfSection",
+      "OpenThread",
+      "QueueUserAPC",
+      "ResumeThread",
+      "SetThreadContext",
+      "SetWindowLong",
+      "SuspendThread",
+      "VirtualAlloc",
+      "VirtualAllocEx",
+      "VirtualProtect",
+      "VirtualProtectEx",
+      "WeLiveSecurity",
+      "WriteProcessMemory",
+      "ZwUnmapViewOfSection"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AtomBombing",
+        "BlackHat",
+        "CreateProcess",
+        "CreateRemoteThread",
+        "CyberBit",
+        "FireEye",
+        "GetWindowLong",
+        "LoadLibrary",
+        "LoadLibrayA",
+        "MalwareTech",
+        "NtUnmapViewOfSection",
+        "OpenThread",
+        "QueueUserAPC",
+        "ResumeThread",
+        "SetThreadContext",
+        "SetWindowLong",
+        "SuspendThread",
+        "VirtualAlloc",
+        "VirtualAllocEx",
+        "VirtualProtect",
+        "VirtualProtectEx",
+        "WeLiveSecurity",
+        "WriteProcessMemory",
+        "ZwUnmapViewOfSection"
+      ]
+    },
+    "n_resources": 25,
+    "n_subtechniques": 11
+  },
+  "T1572": {
+    "name": "Protocol Tunneling",
+    "resources": [
+      "attack.mitre.org",
+      "BleepingComp"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "BleepingComp"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1090": {
+    "name": "Proxy",
+    "resources": [
+      "route",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "route"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 4
+  },
+  "T1012": {
+    "name": "Query Registry",
+    "resources": [
+      "reg",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "reg"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1163": {
+    "name": "Rc.common",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1164": {
+    "name": "Re-opened Applications",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1108": {
+    "name": "Redundant Access",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1060": {
+    "name": "Registry Run Keys / Startup Folder",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1121": {
+    "name": "Regsvcs/Regasm",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1117": {
+    "name": "Regsvr32",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1219": {
+    "name": "Remote Access Software",
+    "resources": [
+      "AmmyyAdmin",
+      "CrowdStrike",
+      "LogMein",
+      "TeamSpy",
+      "TeamViewer"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": [
+        "AmmyyAdmin",
+        "CrowdStrike",
+        "LogMein",
+        "TeamSpy",
+        "TeamViewer"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 0
+  },
+  "T1076": {
+    "name": "Remote Desktop Protocol",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1563": {
+    "name": "Remote Service Session Hijacking",
+    "resources": [
+      "c:\\windows\\system32\\tscon.exe",
+      "attack.mitre.org",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [
+        "c:\\windows\\system32\\tscon.exe"
+      ],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "TechNet"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 2
+  },
+  "T1021": {
+    "name": "Remote Services",
+    "resources": [
+      "powershell",
+      "attack.mitre.org",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "TechNet"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 6
+  },
+  "T1018": {
+    "name": "Remote System Discovery",
+    "resources": [
+      "net",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1091": {
+    "name": "Replication Through Removable Media",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1496": {
+    "name": "Resource Hijacking",
+    "resources": [
+      "CloudSploit"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": [
+        "CloudSploit"
+      ]
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1536": {
+    "name": "Revert Cloud Instance",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1207": {
+    "name": "Rogue Domain Controller",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1014": {
+    "name": "Rootkit",
+    "resources": [
+      "attack.mitre.org",
+      "BlackHat",
+      "CrowdStrike"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "BlackHat",
+        "CrowdStrike"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1085": {
+    "name": "Rundll32",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1494": {
+    "name": "Runtime Data Manipulation",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1178": {
+    "name": "SID-History Injection",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1198": {
+    "name": "SIP and Trust Provider Hijacking",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1184": {
+    "name": "SSH Hijacking",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1053": {
+    "name": "Scheduled Task/Job",
+    "resources": [
+      "at.exe",
+      "net",
+      "schtasks",
+      "attack.mitre.org",
+      "AppleDocs",
+      "BleepingComputer",
+      "CronJob",
+      "LaunchDaemons",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [
+        "at.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "net",
+        "schtasks"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AppleDocs",
+        "BleepingComputer",
+        "CronJob",
+        "LaunchDaemons",
+        "TechNet"
+      ]
+    },
+    "n_resources": 9,
+    "n_subtechniques": 7
+  },
+  "T1029": {
+    "name": "Scheduled Transfer",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1113": {
+    "name": "Screen Capture",
+    "resources": [
+      "net",
+      "CopyFromScreen"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [],
+      "apis": [
+        "CopyFromScreen"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1180": {
+    "name": "Screensaver",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1064": {
+    "name": "Scripting",
+    "resources": [
+      "powershell",
+      "attack.mitre.org",
+      "PowerSploit"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "PowerSploit"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1597": {
+    "name": "Search Closed Sources",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 2
+  },
+  "T1596": {
+    "name": "Search Open Technical Databases",
+    "resources": [
+      "attack.mitre.org",
+      "DigitalShadows"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "DigitalShadows"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 5
+  },
+  "T1593": {
+    "name": "Search Open Websites/Domains",
+    "resources": [
+      "attack.mitre.org",
+      "GoogleHacking",
+      "SecurityTrails"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "GoogleHacking",
+        "SecurityTrails"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 2
+  },
+  "T1594": {
+    "name": "Search Victim-Owned Websites",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1063": {
+    "name": "Security Software Discovery",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1101": {
+    "name": "Security Support Provider",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1167": {
+    "name": "Securityd Memory",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1505": {
+    "name": "Server Software Component",
+    "resources": [
+      "net",
+      "attack.mitre.org",
+      "LightNeuron",
+      "TransportAgent"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "LightNeuron",
+        "TransportAgent"
+      ]
+    },
+    "n_resources": 4,
+    "n_subtechniques": 3
+  },
+  "T1035": {
+    "name": "Service Execution",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1058": {
+    "name": "Service Registry Permissions Weakness",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1489": {
+    "name": "Service Stop",
+    "resources": [
+      "attack.mitre.org",
+      "SecureWorks",
+      "WannaCry"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "SecureWorks",
+        "WannaCry"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1166": {
+    "name": "Setuid and Setgid",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1129": {
+    "name": "Shared Modules",
+    "resources": [
+      "network paths. This functionality resides in NTDLL.dll",
+      "via an NTFS junction or symlink program.exe",
+      "attack.mitre.org",
+      "CreateProcess",
+      "LoadLibrary"
+    ],
+    "by_category": {
+      "files": [
+        "network paths. This functionality resides in NTDLL.dll",
+        "via an NTFS junction or symlink program.exe"
+      ],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "CreateProcess",
+        "LoadLibrary"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 0
+  },
+  "T1051": {
+    "name": "Shared Webroot",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1023": {
+    "name": "Shortcut Modification",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1218": {
+    "name": "Signed Binary Proxy Execution",
+    "resources": [
+      "Adversaries may abuse Regsvr32.exe to proxy execution of malicious code. Regsvr32.exe",
+      "Adversaries may abuse control.exe",
+      "Adversaries may abuse mshta.exe to proxy execution of malicious .hta files and Javascript or VBScript through a trusted Windows utility. There are several examples of different types of threats leveraging mshta.exe",
+      "Adversaries may abuse msiexec.exe to launch local or network accessible MSI files. Msiexec.exe",
+      "Adversaries may abuse msiexec.exe to proxy execution of malicious payloads. Msiexec.exe",
+      "Adversaries may abuse odbcconf.exe",
+      "Adversaries may abuse odbcconf.exe to proxy execution of malicious payloads. Odbcconf.exe",
+      "Adversaries may abuse rundll32.exe to proxy execution of malicious code. Using rundll32.exe",
+      "Adversaries may abuse verclsid.exe",
+      "Adversaries may abuse verclsid.exe to proxy execution of malicious code. Verclsid.exe",
+      "Adversaries may supply CMSTP.exe",
+      "C:\\Users\\Public\\file.dll",
+      "CHM execution may also bypass application application control on older and/or unpatched systems that do not account for execution of binaries through hh.exe",
+      "CMSTP.exe",
+      "Double-clicking a .cpl file also causes rundll32.exe",
+      "Files may be executed by mshta.exe",
+      "InstallUtil.exe",
+      "Malicious usage of Regsvr32.exe",
+      "Microsoft odbcconf.exe",
+      "Mshta.exe",
+      "Mshta.exe can be used to bypass application control solutions that do not account for its potential use. Since mshta.exe",
+      "Msiexec.exe",
+      "Odbcconf.exe",
+      "Red Canary Verclsid.exe",
+      "Regsvr32.exe",
+      "Rundll32.exe",
+      "This execution may also bypass AppLocker and other application control defenses since CMSTP.exe",
+      "WinOSBite verclsid.exe",
+      "a unique identification number used to identify COM objects. COM payloads executed by verclsid.exe",
+      "control.exe",
+      "hh.exe",
+      "may avoid triggering security tools that may not monitor execution of the rundll32.exe process because of allowlists or false positives from normal operations. Rundll32.exe",
+      "msiexec.exe can be used to bypass application control solutions that do not account for its potential abuse. Msiexec.exe",
+      "odbcconf.exe",
+      "on Windows systems. Regsvr32.exe",
+      "proxying execution via verclsid.exe",
+      "rundll32.exe",
+      "the regsvr32.exe process because of allowlists or false positives from Windows using regsvr32.exe for normal operations. Regsvr32.exe can also be used to specifically bypass application control using functionality to load COM scriptlets to execute DLLs under user permissions. Since Regsvr32.exe",
+      "through the undocumented shell32.dll",
+      "verclsid.exe",
+      "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Control Panel\\Cpls",
+      "mshta",
+      "net",
+      "regsvr32",
+      "rundll32",
+      "attack.mitre.org",
+      "microsoft.net",
+      "AlwaysInstallElevated",
+      "AppLocker",
+      "ComRegisterFunction",
+      "ComUnregisterFunction",
+      "ComponentModel",
+      "CurrentVersion",
+      "DllEntryPoint",
+      "FireEye",
+      "GetObject",
+      "InstallUtil",
+      "InvisiMole",
+      "JavaScript",
+      "MsitPros",
+      "RunInstaller",
+      "TrendMicro"
+    ],
+    "by_category": {
+      "files": [
+        "Adversaries may abuse Regsvr32.exe to proxy execution of malicious code. Regsvr32.exe",
+        "Adversaries may abuse control.exe",
+        "Adversaries may abuse mshta.exe to proxy execution of malicious .hta files and Javascript or VBScript through a trusted Windows utility. There are several examples of different types of threats leveraging mshta.exe",
+        "Adversaries may abuse msiexec.exe to launch local or network accessible MSI files. Msiexec.exe",
+        "Adversaries may abuse msiexec.exe to proxy execution of malicious payloads. Msiexec.exe",
+        "Adversaries may abuse odbcconf.exe",
+        "Adversaries may abuse odbcconf.exe to proxy execution of malicious payloads. Odbcconf.exe",
+        "Adversaries may abuse rundll32.exe to proxy execution of malicious code. Using rundll32.exe",
+        "Adversaries may abuse verclsid.exe",
+        "Adversaries may abuse verclsid.exe to proxy execution of malicious code. Verclsid.exe",
+        "Adversaries may supply CMSTP.exe",
+        "C:\\Users\\Public\\file.dll",
+        "CHM execution may also bypass application application control on older and/or unpatched systems that do not account for execution of binaries through hh.exe",
+        "CMSTP.exe",
+        "Double-clicking a .cpl file also causes rundll32.exe",
+        "Files may be executed by mshta.exe",
+        "InstallUtil.exe",
+        "Malicious usage of Regsvr32.exe",
+        "Microsoft odbcconf.exe",
+        "Mshta.exe",
+        "Mshta.exe can be used to bypass application control solutions that do not account for its potential use. Since mshta.exe",
+        "Msiexec.exe",
+        "Odbcconf.exe",
+        "Red Canary Verclsid.exe",
+        "Regsvr32.exe",
+        "Rundll32.exe",
+        "This execution may also bypass AppLocker and other application control defenses since CMSTP.exe",
+        "WinOSBite verclsid.exe",
+        "a unique identification number used to identify COM objects. COM payloads executed by verclsid.exe",
+        "control.exe",
+        "hh.exe",
+        "may avoid triggering security tools that may not monitor execution of the rundll32.exe process because of allowlists or false positives from normal operations. Rundll32.exe",
+        "msiexec.exe can be used to bypass application control solutions that do not account for its potential abuse. Msiexec.exe",
+        "odbcconf.exe",
+        "on Windows systems. Regsvr32.exe",
+        "proxying execution via verclsid.exe",
+        "rundll32.exe",
+        "the regsvr32.exe process because of allowlists or false positives from Windows using regsvr32.exe for normal operations. Regsvr32.exe can also be used to specifically bypass application control using functionality to load COM scriptlets to execute DLLs under user permissions. Since Regsvr32.exe",
+        "through the undocumented shell32.dll",
+        "verclsid.exe"
+      ],
+      "registry": [
+        "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Control Panel\\Cpls"
+      ],
+      "commands": [
+        "mshta",
+        "net",
+        "regsvr32",
+        "rundll32"
+      ],
+      "domains": [
+        "attack.mitre.org",
+        "microsoft.net"
+      ],
+      "apis": [
+        "AlwaysInstallElevated",
+        "AppLocker",
+        "ComRegisterFunction",
+        "ComUnregisterFunction",
+        "ComponentModel",
+        "CurrentVersion",
+        "DllEntryPoint",
+        "FireEye",
+        "GetObject",
+        "InstallUtil",
+        "InvisiMole",
+        "JavaScript",
+        "MsitPros",
+        "RunInstaller",
+        "TrendMicro"
+      ]
+    },
+    "n_resources": 62,
+    "n_subtechniques": 11
+  },
+  "T1216": {
+    "name": "Signed Script Proxy Execution",
+    "resources": [
+      "PubPrn.vbs",
+      "cscript",
+      "AppLocker"
+    ],
+    "by_category": {
+      "files": [
+        "PubPrn.vbs"
+      ],
+      "registry": [],
+      "commands": [
+        "cscript"
+      ],
+      "domains": [],
+      "apis": [
+        "AppLocker"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 1
+  },
+  "T1072": {
+    "name": "Software Deployment Tools",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1518": {
+    "name": "Software Discovery",
+    "resources": [
+      "cmd",
+      "netsh",
+      "reg",
+      "tasklist",
+      "attack.mitre.org",
+      "KnockKnock",
+      "LittleSnitch"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "cmd",
+        "netsh",
+        "reg",
+        "tasklist"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "KnockKnock",
+        "LittleSnitch"
+      ]
+    },
+    "n_resources": 7,
+    "n_subtechniques": 1
+  },
+  "T1045": {
+    "name": "Software Packing",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1153": {
+    "name": "Source",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1151": {
+    "name": "Space after Filename",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1193": {
+    "name": "Spearphishing Attachment",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1192": {
+    "name": "Spearphishing Link",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1194": {
+    "name": "Spearphishing via Service",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1608": {
+    "name": "Stage Capabilities",
+    "resources": [
+      "attack.mitre.org",
+      "DigiCert",
+      "FireEye",
+      "JavaScript",
+      "ScanBox"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "DigiCert",
+        "FireEye",
+        "JavaScript",
+        "ScanBox"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 5
+  },
+  "T1032": {
+    "name": "Standard Cryptographic Protocol",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1165": {
+    "name": "Startup Items",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1528": {
+    "name": "Steal Application Access Token",
+    "resources": [
+      "powershell",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1539": {
+    "name": "Steal Web Session Cookie",
+    "resources": [
+      "attack.mitre.org",
+      "TajMahal"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "TajMahal"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1558": {
+    "name": "Steal or Forge Kerberos Tickets",
+    "resources": [
+      "powershell",
+      "attack.mitre.org",
+      "AdSecurity",
+      "InvokeKerberoast",
+      "SharePoint"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AdSecurity",
+        "InvokeKerberoast",
+        "SharePoint"
+      ]
+    },
+    "n_resources": 5,
+    "n_subtechniques": 4
+  },
+  "T1492": {
+    "name": "Stored Data Manipulation",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1553": {
+    "name": "Subvert Trust Controls",
+    "resources": [
+      "bcdedit.exe",
+      "HKLM\\SOFTWARE",
+      "bcdedit",
+      "powershell",
+      "attack.mitre.org",
+      "AcidBox",
+      "BlackEnergy",
+      "EduardosBlog",
+      "EncodingType",
+      "FinalPolicy",
+      "FireEye",
+      "FuncName",
+      "OceanLotus",
+      "SmartScreen",
+      "SpectorOps",
+      "WinVerifyTrust"
+    ],
+    "by_category": {
+      "files": [
+        "bcdedit.exe"
+      ],
+      "registry": [
+        "HKLM\\SOFTWARE"
+      ],
+      "commands": [
+        "bcdedit",
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "AcidBox",
+        "BlackEnergy",
+        "EduardosBlog",
+        "EncodingType",
+        "FinalPolicy",
+        "FireEye",
+        "FuncName",
+        "OceanLotus",
+        "SmartScreen",
+        "SpectorOps",
+        "WinVerifyTrust"
+      ]
+    },
+    "n_resources": 16,
+    "n_subtechniques": 6
+  },
+  "T1169": {
+    "name": "Sudo",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1206": {
+    "name": "Sudo Caching",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1195": {
+    "name": "Supply Chain Compromise",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 3
+  },
+  "T1019": {
+    "name": "System Firmware",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1082": {
+    "name": "System Information Discovery",
+    "resources": [
+      "systeminfo",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "systeminfo"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1614": {
+    "name": "System Location Discovery",
+    "resources": [
+      "attack.mitre.org",
+      "GetLocaleInfoW"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "GetLocaleInfoW"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1016": {
+    "name": "System Network Configuration Discovery",
+    "resources": [
+      "arp",
+      "ipconfig",
+      "route",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "arp",
+        "ipconfig",
+        "route"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 4,
+    "n_subtechniques": 1
+  },
+  "T1049": {
+    "name": "System Network Connections Discovery",
+    "resources": [
+      "net",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1033": {
+    "name": "System Owner/User Discovery",
+    "resources": [
+      "whoami",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "whoami"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1007": {
+    "name": "System Service Discovery",
+    "resources": [
+      "net",
+      "sc",
+      "tasklist",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net",
+        "sc",
+        "tasklist"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 4,
+    "n_subtechniques": 0
+  },
+  "T1569": {
+    "name": "System Services",
+    "resources": [
+      "sc.exe",
+      "services.exe",
+      "net",
+      "sc.exe",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [
+        "sc.exe",
+        "services.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "net",
+        "sc.exe"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 5,
+    "n_subtechniques": 2
+  },
+  "T1529": {
+    "name": "System Shutdown/Reboot",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1124": {
+    "name": "System Time Discovery",
+    "resources": [
+      "net",
+      "attack.mitre.org",
+      "TimeBomb"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "TimeBomb"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 0
+  },
+  "T1501": {
+    "name": "Systemd Service",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1080": {
+    "name": "Taint Shared Content",
+    "resources": [
+      "The malicious .LNK",
+      "and/or .VBS",
+      "of directory .LNK",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [
+        "The malicious .LNK",
+        "and/or .VBS",
+        "of directory .LNK"
+      ],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 4,
+    "n_subtechniques": 0
+  },
+  "T1221": {
+    "name": "Template Injection",
+    "resources": [
+      "attack.mitre.org",
+      "MalwareBytes"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "MalwareBytes"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1209": {
+    "name": "Time Providers",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1099": {
+    "name": "Timestomp",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1205": {
+    "name": "Traffic Signaling",
+    "resources": [
+      "attack.mitre.org",
+      "FireEye"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 1
+  },
+  "T1537": {
+    "name": "Transfer Data to Cloud Account",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1493": {
+    "name": "Transmitted Data Manipulation",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1154": {
+    "name": "Trap",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1127": {
+    "name": "Trusted Developer Utilities Proxy Execution",
+    "resources": [
+      "MSBuild will compile and execute the inline task. MSBuild.exe",
+      "These utilities may often be signed with legitimate certificates that allow them to execute on a system and proxy execution of malicious code through a trusted process that effectively bypasses application control solutions. Adversaries may use MSBuild to proxy execution of code through a trusted Windows utility. MSBuild.exe",
+      "so when it is used this way it can execute arbitrary code and bypass application control defenses that are configured to allow MSBuild.exe",
+      "net"
+    ],
+    "by_category": {
+      "files": [
+        "MSBuild will compile and execute the inline task. MSBuild.exe",
+        "These utilities may often be signed with legitimate certificates that allow them to execute on a system and proxy execution of malicious code through a trusted process that effectively bypasses application control solutions. Adversaries may use MSBuild to proxy execution of code through a trusted Windows utility. MSBuild.exe",
+        "so when it is used this way it can execute arbitrary code and bypass application control defenses that are configured to allow MSBuild.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "net"
+      ],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 4,
+    "n_subtechniques": 1
+  },
+  "T1199": {
+    "name": "Trusted Relationship",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 0
+  },
+  "T1111": {
+    "name": "Two-Factor Authentication Interception",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1065": {
+    "name": "Uncommonly Used Port",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1552": {
+    "name": "Unsecured Credentials",
+    "resources": [
+      "reg",
+      "attack.mitre.org",
+      "RedLock",
+      "UserData"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "reg"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "RedLock",
+        "UserData"
+      ]
+    },
+    "n_resources": 4,
+    "n_subtechniques": 7
+  },
+  "T1535": {
+    "name": "Unused/Unsupported Cloud Regions",
+    "resources": [
+      "attack.mitre.org",
+      "CloudSploit"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "CloudSploit"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1550": {
+    "name": "Use Alternate Authentication Material",
+    "resources": [
+      "attack.mitre.org",
+      "GentilKiwi",
+      "SharePoint"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "GentilKiwi",
+        "SharePoint"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 4
+  },
+  "T1204": {
+    "name": "User Execution",
+    "resources": [
+      "route",
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "route"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 2,
+    "n_subtechniques": 3
+  },
+  "T1078": {
+    "name": "Valid Accounts",
+    "resources": [
+      "attack.mitre.org",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "TechNet"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 4
+  },
+  "T1125": {
+    "name": "Video Capture",
+    "resources": [
+      "attack.mitre.org",
+      "FruitFly"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FruitFly"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1497": {
+    "name": "Virtualization/Sandbox Evasion",
+    "resources": [
+      "powershell",
+      "attack.mitre.org",
+      "FireEye"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [
+        "powershell"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "FireEye"
+      ]
+    },
+    "n_resources": 3,
+    "n_subtechniques": 3
+  },
+  "T1600": {
+    "name": "Weaken Encryption",
+    "resources": [
+      "attack.mitre.org"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": []
+    },
+    "n_resources": 1,
+    "n_subtechniques": 2
+  },
+  "T1102": {
+    "name": "Web Service",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 3
+  },
+  "T1506": {
+    "name": "Web Session Cookie",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1100": {
+    "name": "Web Shell",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1077": {
+    "name": "Windows Admin Shares",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1047": {
+    "name": "Windows Management Instrumentation",
+    "resources": [
+      "FireEye",
+      "TechNet"
+    ],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": [
+        "FireEye",
+        "TechNet"
+      ]
+    },
+    "n_resources": 2,
+    "n_subtechniques": 0
+  },
+  "T1084": {
+    "name": "Windows Management Instrumentation Event Subscription",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1028": {
+    "name": "Windows Remote Management",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1004": {
+    "name": "Winlogon Helper DLL",
+    "resources": [],
+    "by_category": {
+      "files": [],
+      "registry": [],
+      "commands": [],
+      "domains": [],
+      "apis": []
+    },
+    "n_resources": 0,
+    "n_subtechniques": 0
+  },
+  "T1220": {
+    "name": "XSL Script Processing",
+    "resources": [
+      "Microsoft msxsl.exe",
+      "Msxsl.exe",
+      "Since msxsl.exe",
+      "msxsl.exe",
+      "the adversary may call the same XSL file twice. When using msxsl.exe",
+      "regsvr32",
+      "wmic",
+      "attack.mitre.org",
+      "JavaScript"
+    ],
+    "by_category": {
+      "files": [
+        "Microsoft msxsl.exe",
+        "Msxsl.exe",
+        "Since msxsl.exe",
+        "msxsl.exe",
+        "the adversary may call the same XSL file twice. When using msxsl.exe"
+      ],
+      "registry": [],
+      "commands": [
+        "regsvr32",
+        "wmic"
+      ],
+      "domains": [
+        "attack.mitre.org"
+      ],
+      "apis": [
+        "JavaScript"
+      ]
+    },
+    "n_resources": 9,
+    "n_subtechniques": 0
+  }
+}
