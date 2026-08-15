@@ -1,0 +1,410 @@
+{
+  "random": {
+    "all": {
+      "graph": {
+        "subset": "all",
+        "n": 8344,
+        "macro_f1": 0.8567308610063409,
+        "micro_f1": 0.8537453027139875,
+        "macro_pr_auc": 0.8370733931888625
+      },
+      "fusion": {
+        "subset": "all",
+        "n": 8344,
+        "macro_f1": 0.8542107027745096,
+        "micro_f1": 0.8554345647671855,
+        "macro_pr_auc": 0.8244407276790652
+      },
+      "bootstrap": {
+        "mean_delta": -0.0023017439302155354,
+        "ci95": [
+          -0.013471968538945459,
+          0.008377062519265788
+        ],
+        "p_value": 0.673,
+        "significant": false
+      }
+    },
+    "has_domain": {
+      "graph": {
+        "subset": "has_domain",
+        "n": 1911,
+        "macro_f1": 0.8449880218805079,
+        "micro_f1": 0.8795539345155745,
+        "macro_pr_auc": 0.8309996245618007
+      },
+      "fusion": {
+        "subset": "has_domain",
+        "n": 1911,
+        "macro_f1": 0.8537679364974697,
+        "micro_f1": 0.8838163846540459,
+        "macro_pr_auc": 0.837083436547483
+      },
+      "bootstrap": {
+        "mean_delta": 0.009060725271040987,
+        "ci95": [
+          -0.0097795861449556,
+          0.03181445898734465
+        ],
+        "p_value": 0.379,
+        "significant": false
+      }
+    },
+    "has_adversarial": {
+      "graph": {
+        "subset": "has_adversarial",
+        "n": 1043,
+        "macro_f1": 0.8166690294894435,
+        "micro_f1": 0.9087730657170605,
+        "macro_pr_auc": 0.8105752675924657
+      },
+      "fusion": {
+        "subset": "has_adversarial",
+        "n": 1043,
+        "macro_f1": 0.8153451638066186,
+        "micro_f1": 0.9100610736097717,
+        "macro_pr_auc": 0.7904605211982991
+      },
+      "bootstrap": {
+        "mean_delta": -0.0011995582606029935,
+        "ci95": [
+          -0.017293791291380867,
+          0.014523902536703335
+        ],
+        "p_value": 0.892,
+        "significant": false
+      }
+    },
+    "no_indicator": {
+      "graph": {
+        "subset": "no_indicator",
+        "n": 6433,
+        "macro_f1": 0.7906070286317252,
+        "micro_f1": 0.8366553772694465,
+        "macro_pr_auc": 0.7890628817046242
+      },
+      "fusion": {
+        "subset": "no_indicator",
+        "n": 6433,
+        "macro_f1": 0.7714619719608142,
+        "micro_f1": 0.8366111111111111,
+        "macro_pr_auc": 0.7849494458660595
+      },
+      "bootstrap": {
+        "mean_delta": -0.0199337905208212,
+        "ci95": [
+          -0.048215966018688695,
+          0.006003289582800287
+        ],
+        "p_value": 0.167,
+        "significant": false
+      }
+    }
+  },
+  "family": {
+    "all": {
+      "graph": {
+        "subset": "all",
+        "n": 8595,
+        "macro_f1": 0.48014428683089866,
+        "micro_f1": 0.6912398655329247,
+        "macro_pr_auc": 0.5975601665916931
+      },
+      "fusion": {
+        "subset": "all",
+        "n": 8595,
+        "macro_f1": 0.4728864817294192,
+        "micro_f1": 0.6529578475336323,
+        "macro_pr_auc": 0.6064872730685082
+      },
+      "bootstrap": {
+        "mean_delta": -0.0072695926487351785,
+        "ci95": [
+          -0.014843310036966723,
+          0.0011338641262141997
+        ],
+        "p_value": 0.086,
+        "significant": false
+      }
+    },
+    "has_domain": {
+      "graph": {
+        "subset": "has_domain",
+        "n": 4465,
+        "macro_f1": 0.4662280827397897,
+        "micro_f1": 0.7012948592494823,
+        "macro_pr_auc": 0.5535693537423262
+      },
+      "fusion": {
+        "subset": "has_domain",
+        "n": 4465,
+        "macro_f1": 0.46858376699134247,
+        "micro_f1": 0.6913577541337482,
+        "macro_pr_auc": 0.5649444553310533
+      },
+      "bootstrap": {
+        "mean_delta": 0.0022747559717461127,
+        "ci95": [
+          -0.0081221979377704,
+          0.012724769860511055
+        ],
+        "p_value": 0.684,
+        "significant": false
+      }
+    },
+    "has_adversarial": {
+      "graph": {
+        "subset": "has_adversarial",
+        "n": 3743,
+        "macro_f1": 0.4570269832514638,
+        "micro_f1": 0.7042883119507021,
+        "macro_pr_auc": 0.5442305955375967
+      },
+      "fusion": {
+        "subset": "has_adversarial",
+        "n": 3743,
+        "macro_f1": 0.4567252405107957,
+        "micro_f1": 0.7012173312448353,
+        "macro_pr_auc": 0.5399661849983898
+      },
+      "bootstrap": {
+        "mean_delta": -0.00016966284696697805,
+        "ci95": [
+          -0.015239388724014629,
+          0.015093894396083662
+        ],
+        "p_value": 0.979,
+        "significant": false
+      }
+    },
+    "no_indicator": {
+      "graph": {
+        "subset": "no_indicator",
+        "n": 4130,
+        "macro_f1": 0.41606068712006034,
+        "micro_f1": 0.6683100236124445,
+        "macro_pr_auc": 0.5864166279412693
+      },
+      "fusion": {
+        "subset": "no_indicator",
+        "n": 4130,
+        "macro_f1": 0.35935671589193574,
+        "micro_f1": 0.5801222097518394,
+        "macro_pr_auc": 0.5691782978716898
+      },
+      "bootstrap": {
+        "mean_delta": -0.056248871518081556,
+        "ci95": [
+          -0.06790678242862758,
+          -0.04432698800446239
+        ],
+        "p_value": 0.0,
+        "significant": true
+      }
+    }
+  },
+  "cluster": {
+    "all": {
+      "graph": {
+        "subset": "all",
+        "n": 8479,
+        "macro_f1": 0.6879663220900374,
+        "micro_f1": 0.8185932247220067,
+        "macro_pr_auc": 0.7530160045523903
+      },
+      "fusion": {
+        "subset": "all",
+        "n": 8479,
+        "macro_f1": 0.7247151891165308,
+        "micro_f1": 0.8180542000347607,
+        "macro_pr_auc": 0.7477194013742311
+      },
+      "bootstrap": {
+        "mean_delta": 0.03661294693023436,
+        "ci95": [
+          0.02230470307626273,
+          0.05033397705412014
+        ],
+        "p_value": 0.0,
+        "significant": true
+      }
+    },
+    "has_domain": {
+      "graph": {
+        "subset": "has_domain",
+        "n": 2566,
+        "macro_f1": 0.6806753441038086,
+        "micro_f1": 0.844494642020881,
+        "macro_pr_auc": 0.771906762743493
+      },
+      "fusion": {
+        "subset": "has_domain",
+        "n": 2566,
+        "macro_f1": 0.7117333357379897,
+        "micro_f1": 0.8453403646054832,
+        "macro_pr_auc": 0.7757603282182058
+      },
+      "bootstrap": {
+        "mean_delta": 0.031786324707138505,
+        "ci95": [
+          0.011755788367837777,
+          0.051957950923827316
+        ],
+        "p_value": 0.001,
+        "significant": true
+      }
+    },
+    "has_adversarial": {
+      "graph": {
+        "subset": "has_adversarial",
+        "n": 1193,
+        "macro_f1": 0.6492461124804102,
+        "micro_f1": 0.8755411255411255,
+        "macro_pr_auc": 0.7981135673825291
+      },
+      "fusion": {
+        "subset": "has_adversarial",
+        "n": 1193,
+        "macro_f1": 0.7052082210747913,
+        "micro_f1": 0.883851554663992,
+        "macro_pr_auc": 0.7668257533550362
+      },
+      "bootstrap": {
+        "mean_delta": 0.04526797585144587,
+        "ci95": [
+          -0.00980358376555864,
+          0.09649051764770993
+        ],
+        "p_value": 0.171,
+        "significant": false
+      }
+    },
+    "no_indicator": {
+      "graph": {
+        "subset": "no_indicator",
+        "n": 5913,
+        "macro_f1": 0.6082081844261672,
+        "micro_f1": 0.7956821559979531,
+        "macro_pr_auc": 0.6620503794138421
+      },
+      "fusion": {
+        "subset": "no_indicator",
+        "n": 5913,
+        "macro_f1": 0.6013378394552986,
+        "micro_f1": 0.7937054090978091,
+        "macro_pr_auc": 0.6509431826531838
+      },
+      "bootstrap": {
+        "mean_delta": -0.008367100857466841,
+        "ci95": [
+          -0.0358067291071958,
+          0.02310561484434119
+        ],
+        "p_value": 0.562,
+        "significant": false
+      }
+    }
+  },
+  "temporal": {
+    "all": {
+      "graph": {
+        "subset": "all",
+        "n": 8344,
+        "macro_f1": 0.6011841818294258,
+        "micro_f1": 0.7203349328031505,
+        "macro_pr_auc": 0.5850329847163501
+      },
+      "fusion": {
+        "subset": "all",
+        "n": 8344,
+        "macro_f1": 0.5943075625833942,
+        "micro_f1": 0.7170918513155639,
+        "macro_pr_auc": 0.5605357352073284
+      },
+      "bootstrap": {
+        "mean_delta": -0.006998342828236081,
+        "ci95": [
+          -0.017948471586032133,
+          0.0040298182298849905
+        ],
+        "p_value": 0.202,
+        "significant": false
+      }
+    },
+    "has_domain": {
+      "graph": {
+        "subset": "has_domain",
+        "n": 2095,
+        "macro_f1": 0.5617390793061562,
+        "micro_f1": 0.7445883565634384,
+        "macro_pr_auc": 0.5770251376103398
+      },
+      "fusion": {
+        "subset": "has_domain",
+        "n": 2095,
+        "macro_f1": 0.5672130895451093,
+        "micro_f1": 0.7410698418340146,
+        "macro_pr_auc": 0.5335328141787604
+      },
+      "bootstrap": {
+        "mean_delta": 0.005570779546433422,
+        "ci95": [
+          -0.013461468415267474,
+          0.025151026690681533
+        ],
+        "p_value": 0.569,
+        "significant": false
+      }
+    },
+    "has_adversarial": {
+      "graph": {
+        "subset": "has_adversarial",
+        "n": 737,
+        "macro_f1": 0.541272650159316,
+        "micro_f1": 0.7099600566937251,
+        "macro_pr_auc": 0.6033532320324646
+      },
+      "fusion": {
+        "subset": "has_adversarial",
+        "n": 737,
+        "macro_f1": 0.5585867146868404,
+        "micro_f1": 0.6991829038340667,
+        "macro_pr_auc": 0.5482139987509772
+      },
+      "bootstrap": {
+        "mean_delta": 0.017461252978774572,
+        "ci95": [
+          -0.0070724063943035445,
+          0.04136394982966087
+        ],
+        "p_value": 0.178,
+        "significant": false
+      }
+    },
+    "no_indicator": {
+      "graph": {
+        "subset": "no_indicator",
+        "n": 6249,
+        "macro_f1": 0.6013489612412868,
+        "micro_f1": 0.7022936391518869,
+        "macro_pr_auc": 0.5828625425983712
+      },
+      "fusion": {
+        "subset": "no_indicator",
+        "n": 6249,
+        "macro_f1": 0.5891416754257031,
+        "micro_f1": 0.6990893625537876,
+        "macro_pr_auc": 0.566316568773476
+      },
+      "bootstrap": {
+        "mean_delta": -0.012202540155780315,
+        "ci95": [
+          -0.03053321873786511,
+          0.005618947995455231
+        ],
+        "p_value": 0.198,
+        "significant": false
+      }
+    }
+  }
+}

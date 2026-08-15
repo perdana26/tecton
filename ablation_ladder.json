@@ -1,0 +1,316 @@
+{
+  "random/R5_meanmax/bce": {
+    "macro_f1_mean": 0.8771794014073192,
+    "macro_f1_std": 0.008170618308771924,
+    "per_seed": [
+      0.8759037929795442,
+      0.8697216129374138,
+      0.8859127983049996
+    ],
+    "train_seconds": 1542.8953392505646,
+    "seconds_per_seed": 514.2984464168549,
+    "train_nodes_per_epoch": 2420748,
+    "config": {
+      "arch": "gatv2",
+      "per_sample": true,
+      "learned_emb": true,
+      "edge_attr": true,
+      "pool": "meanmax"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "random/R0_aegcn/bce": {
+    "macro_f1_mean": 0.4820490422617638,
+    "macro_f1_std": 0.08305523513339798,
+    "per_seed": [
+      0.5314342462305656,
+      0.38615954213717774,
+      0.5285533384175483
+    ],
+    "config": {
+      "arch": "aegcn",
+      "per_sample": false,
+      "learned_emb": false,
+      "edge_attr": false,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "random/R0b_vocab_gcn/bce": {
+    "macro_f1_mean": 0.7998787681625945,
+    "macro_f1_std": 0.008263247950748228,
+    "per_seed": [
+      0.8092287255280584,
+      0.796851512042538,
+      0.7935560669171869
+    ],
+    "config": {
+      "arch": "gcn",
+      "per_sample": false,
+      "learned_emb": false,
+      "edge_attr": false,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "random/R1_vocab_gat/bce": {
+    "macro_f1_mean": 0.8421984424400565,
+    "macro_f1_std": 0.010302906236338538,
+    "per_seed": [
+      0.851978101230746,
+      0.8314418778054112,
+      0.8431753482840123
+    ],
+    "train_seconds": 4395.989000558853,
+    "seconds_per_seed": 1465.329666852951,
+    "train_nodes_per_epoch": 9636330,
+    "config": {
+      "arch": "gatv2",
+      "per_sample": false,
+      "learned_emb": false,
+      "edge_attr": false,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "random/R2_persample_gat/bce": {
+    "macro_f1_mean": 0.8595546571200318,
+    "macro_f1_std": 0.018836467441826467,
+    "per_seed": [
+      0.8770581371030032,
+      0.8396210726004157,
+      0.8619847616566764
+    ],
+    "config": {
+      "arch": "gatv2",
+      "per_sample": true,
+      "learned_emb": false,
+      "edge_attr": false,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "random/R3_learned_emb/bce": {
+    "macro_f1_mean": 0.8831557876803382,
+    "macro_f1_std": 0.005884308657702214,
+    "per_seed": [
+      0.8793725507357558,
+      0.8801596227035626,
+      0.8899351896016959
+    ],
+    "config": {
+      "arch": "gatv2",
+      "per_sample": true,
+      "learned_emb": true,
+      "edge_attr": false,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "random/R4_edge_attr/bce": {
+    "macro_f1_mean": 0.8745833145773781,
+    "macro_f1_std": 0.0037686547026724577,
+    "per_seed": [
+      0.8705450386396558,
+      0.8751981719987396,
+      0.8780067330937387
+    ],
+    "config": {
+      "arch": "gatv2",
+      "per_sample": true,
+      "learned_emb": true,
+      "edge_attr": true,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "temporal/R0_aegcn/bce": {
+    "macro_f1_mean": 0.24903155245424272,
+    "macro_f1_std": 0.002694421797590975,
+    "per_seed": [
+      0.2487670020065739,
+      0.2518484912731691,
+      0.2464791640829852
+    ],
+    "config": {
+      "arch": "aegcn",
+      "per_sample": false,
+      "learned_emb": false,
+      "edge_attr": false,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "temporal/R0b_vocab_gcn/bce": {
+    "macro_f1_mean": 0.5044145982558274,
+    "macro_f1_std": 0.053294845442808346,
+    "per_seed": [
+      0.4429015997181626,
+      0.5336046336879338,
+      0.5367375613613857
+    ],
+    "config": {
+      "arch": "gcn",
+      "per_sample": false,
+      "learned_emb": false,
+      "edge_attr": false,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "temporal/R1_vocab_gat/bce": {
+    "macro_f1_mean": 0.5423398308307678,
+    "macro_f1_std": 0.011075321853860308,
+    "per_seed": [
+      0.5333308840052816,
+      0.5389835210771674,
+      0.5547050874098542
+    ],
+    "config": {
+      "arch": "gatv2",
+      "per_sample": false,
+      "learned_emb": false,
+      "edge_attr": false,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "temporal/R2_persample_gat/bce": {
+    "macro_f1_mean": 0.612160911765678,
+    "macro_f1_std": 0.024039385019692643,
+    "per_seed": [
+      0.6223676127294446,
+      0.5847022604872899,
+      0.6294128620802995
+    ],
+    "config": {
+      "arch": "gatv2",
+      "per_sample": true,
+      "learned_emb": false,
+      "edge_attr": false,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "temporal/R3_learned_emb/bce": {
+    "macro_f1_mean": 0.6344259820072099,
+    "macro_f1_std": 0.004580024334075153,
+    "per_seed": [
+      0.6395723646502618,
+      0.6307979531772538,
+      0.632907628194114
+    ],
+    "config": {
+      "arch": "gatv2",
+      "per_sample": true,
+      "learned_emb": true,
+      "edge_attr": false,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "temporal/R4_edge_attr/bce": {
+    "macro_f1_mean": 0.6259634587388977,
+    "macro_f1_std": 0.014996480798560507,
+    "per_seed": [
+      0.6117165517620982,
+      0.6245626135736011,
+      0.6416112108809938
+    ],
+    "config": {
+      "arch": "gatv2",
+      "per_sample": true,
+      "learned_emb": true,
+      "edge_attr": true,
+      "pool": "mean"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  },
+  "temporal/R5_meanmax/bce": {
+    "macro_f1_mean": 0.6242472985516755,
+    "macro_f1_std": 0.004589366376816541,
+    "per_seed": [
+      0.6198752188735323,
+      0.6238398902600474,
+      0.6290267865214467
+    ],
+    "config": {
+      "arch": "gatv2",
+      "per_sample": true,
+      "learned_emb": true,
+      "edge_attr": true,
+      "pool": "meanmax"
+    },
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "loss": "bce"
+  }
+}
